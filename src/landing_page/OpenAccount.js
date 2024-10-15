@@ -1,6 +1,5 @@
 import React from 'react'
-function OpenAccount
-() {
+function OpenAccount() {
     return ( <><h1>OpenAccount</h1></> );
 }
 

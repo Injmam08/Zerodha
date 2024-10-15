@@ -1,15 +1,7 @@
 import React from 'react';
 
-function Hero
-() {
-    return (  
-   <div className='container'>
-    <div className='row'>
-    
-    </div>
-
-   </div>
-    );
+function Hero() {
+    return ( <h1>Hero</h1> );
 }
 
 export default Hero;

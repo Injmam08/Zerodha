@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import HomePage from './landing_page/home/Homepage';
+import HomePage from './landing_page/home/Homepage.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

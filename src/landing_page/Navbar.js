@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 function NavBar() {
   return (
 
     <div className='container p-2 '>
       <nav class="navbar navbar-expand-lg border-bottom "
       style={{backgroundColor:"#FFF"}}>
-        <a class="navbar-brand" ><img style={{width:"30%"}} src='../media/images/logo.svg' alt='logo'></img> </a>
+        <Link class="navbar-brand" ><img style={{width:"30%"}} src='../media/images/logo.svg' alt='logo'></img> </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,19 +18,22 @@ function NavBar() {
       </form>
       <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link active" href="#">Signup<span class="sr-only">(current)</span></a>
+              <Link class="nav-link active" aria-current="page" to="/signup">signup</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#"> About</a>
+              <Link class="nav-link active" aria-current="page" to="/about"> About</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Product</a>
+              <Link class="nav-link active" aria-current="page" to="/product">Product</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">pricing</a>
+              <Link class="nav-link active" aria-current="page" to="/pricing">pricing</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Supports</a>
+              <Link class="nav-link active" aria-current="page" to="/supports">Supports</Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link active" aria-current="page" to="/bars"><i class="fa-regular fa-bars"></i></Link>
             </li>
             
            

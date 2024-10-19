@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 function Footer() {
   return (
     <footer style={{backgroundColor:"rgb(250, 250, 250)"}} >
@@ -18,14 +19,14 @@ function Footer() {
 
         <div className="col">
           <p>Company</p>
-          <a href="">About</a> <br></br>
-          <a href="">Products</a> <br></br>
-          <a href="">Pricing</a> <br></br>
-          <a href="">Referral programme</a> <br></br>
-          <a href="">Careers</a> <br></br>
-          <a href="">Zerodha.tech</a> <br></br>
-          <a href="">Press & media</a> <br></br>
-          <a href="">Zerodha Cares (CSR)</a> <br></br>
+          <Link href="/">About</Link> <br/>
+          <Link href="">Products</Link> <br/>
+          <Link href="">Pricing</Link> <br/>
+          <Link href="">Referral programme</Link> <br/>
+          <Link href="">Careers</Link> <br/>
+          <Link href="">Zerodha.tech</Link> <br/>
+          <Link href="">Press & media</Link> <br/>
+          <Link href="">Zerodha Cares (CSR)</Link> <br/>
         </div>
         <div className="col">
           <p>Support</p>
